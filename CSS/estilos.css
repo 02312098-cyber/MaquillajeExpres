@@ -1,0 +1,182 @@
+
+
+*{ 
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: "calibri ligth";
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height:400px;
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;  
+}
+
+main{
+    background: white;
+    padding: 20px 30px
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+footer{
+    background:teal;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+    body{
+
+}
+
+/* RESET GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header{
+    background: url(../img/portada.png);
+
+    width: 100%;
+    height: 500px;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+/* FOTO PERFIL */
+main .perfil{
+
+    width: 150px;
+    height: 150px;
+
+    background: gray;
+
+    border: 8px solid white;
+
+    border-radius: 50%;
+
+    margin: -95px auto 10px auto;
+}
+
+/* IMAGEN PERFIL */
+main .perfil img{
+
+    width: 100%;
+
+    border-radius: 50%;
+}
+
+/* TEXTO */
+main .texto h2{
+
+    text-align: center;
+
+    font-size: 35px;
+
+    margin: 10px 0;
+}
+
+/* PÁRRAFO */
+main .texto p{
+
+    font-size: 18px;
+
+    font-style: italic;
+
+    margin-bottom: 15px;
+
+    text-align: justify;
+}
+
+/* BOTÓN */
+.boton a{
+
+    background: teal;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 16px;
+
+    display: block;
+
+    padding: 15px 10px;
+
+    border-radius: 5px;
+
+    width: 100px;
+
+    margin: 15px auto;
+
+    text-align: center;
+}
+
+/* HOVER */
+.boton a:hover{
+
+    background: rgb(0, 90, 90);
+}
+
+/* FOOTER */
+footer{
+
+    background: #020202;
+
+    padding: 30px;
+}
+
+/* TEXTO FOOTER */
+footer p{
+
+    color: white;
+
+    text-align: center;
+}
